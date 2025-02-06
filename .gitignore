@@ -1,0 +1,62 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.*.yml
+.dockerignore
+/.docker/
+*.tar
+*.img
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.auto.tfvars
+
+# Azure & Authentication
+azure_auth.json
+*.cer
+*.pfx
+*.key
+*.pem
+*.crt
+*.der
+
+# Build artifacts
+dist/
+build/
+out/
+coverage/
+public/build/
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# Git
+*.orig
+.git/
+.gitignore
